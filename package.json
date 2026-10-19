@@ -1,0 +1,23 @@
+{
+  "name": "deptrim",
+  "version": "1.0.0",
+  "description": "Find unused and missing dependencies in JavaScript/TypeScript projects.",
+  "bin": {
+    "deptrim": "bin/deptrim.js"
+  },
+  "scripts": {
+    "test": "node bin/deptrim.js ."
+  },
+  "keywords": [
+    "dependencies",
+    "unused",
+    "lint",
+    "cli",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
